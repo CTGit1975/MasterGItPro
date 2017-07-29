@@ -153,3 +153,43 @@ reboot
 vim /etc/network/de
 history
 reboot
+ifconfig
+mkdir testdir
+cd testdir
+git init
+touch test1
+touch test2
+touch test3
+git add .
+git status
+git commit -m "first commit"
+git remote add origin http://192.168.166.2/root/my-Jenkins-project.git
+git remote add origin 'http://192.168.166.2/root/my-Jenkins-project.git'
+git push -u origin master
+git push -u origin master http://192.168.166.2/root/my-Jenkins-project.git
+git push -u origin master 'http://192.168.166.2/root/my-Jenkins-project.git'
+git push -u
+git push -u origin
+git remote add origin http://192.168.166.2/root/my-Jenkins-project.git
+git push -u origin master
+git push -u origin master http://192.168.166.2/root/my-Jenkins-project.git
+git push -u origin master 'http://192.168.166.2/root/my-Jenkins-project.git'
+git push -u origin master
+ifconfig
+192.168.166.4
+ls -ktr
+Java Application Source Code
+cd Java Application Source Code
+ls -ltr
+cd Java Application Source Code
+cd java application source code
+ls 
+mv Java Application Source Code java
+ls -ltr
+cd java_source_code
+ls -ltr
+git init
+git remote add origin http://192.168.166.2/root/my-Jenkins-project.git
+git add .
+git commit -m "initial commit"
+git push -u origin master

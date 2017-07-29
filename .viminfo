@@ -8,10 +8,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq!
 :.q!
 :q!
 :"q!
-:wq!
 :w!
 :q
 :Q
@@ -47,18 +47,20 @@
 	ubuntu
 
 # File marks:
-'0  1  0  /etc/gitlab/gitlab.rb
-'1  1  0  /etc/network/de
-'2  1  11  ~/testdir/test3
-'3  1  11  /etc/hostname
-'4  1  0  /etc/hosanem
-'5  14  0  /etc/network/interfaces
-'6  1  0  /etc/network/interfaces
-'7  1  0  /etc/networks
-'8  21  20  /etc/systemd/system/network-online.target.wants/networking.service
-'9  1  0  ~/20auto-upgrades
+'0  1  12  ~/.ssh/master/a.txt
+'1  1  10  ~/module2/a.txt
+'2  1  0  /etc/gitlab/gitlab.rb
+'3  1  0  /etc/network/de
+'4  1  11  ~/testdir/test3
+'5  1  11  /etc/hostname
+'6  1  0  /etc/hosanem
+'7  14  0  /etc/network/interfaces
+'8  1  0  /etc/network/interfaces
+'9  1  0  /etc/networks
 
 # Jumplist (newest first):
+-'  1  12  ~/.ssh/master/a.txt
+-'  1  10  ~/module2/a.txt
 -'  1  0  /etc/gitlab/gitlab.rb
 -'  1  0  /etc/network/de
 -'  1  11  ~/testdir/test3
@@ -155,10 +157,21 @@
 -'  1  43  ~/tunnel.sh
 -'  1  43  ~/tunnel.sh
 -'  2  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  43  ~/tunnel.sh
 
 # History of marks within files (newest to oldest):
+
+> ~/.ssh/master/a.txt
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+	y	1	0
+
+> ~/module2/a.txt
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
 
 > /etc/gitlab/gitlab.rb
 	"	1	0
